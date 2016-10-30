@@ -11,7 +11,7 @@ let getInfo = () => {
              data: {
                 method: "flickr.photos.search",
                 api_key: token,
-                tags: "fashion",
+                tags: "flover",
                 format: "json",
                 nojsoncallback: 1
             },
@@ -28,4 +28,5 @@ let getInfo = () => {
 
 $(document).ready(function () {
     getInfo();
+    setInterval(getInfo, 10000);
 })
