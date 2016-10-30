@@ -1,0 +1,12 @@
+.logo {
+    width: 140px;
+}
+
+.pre {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+a {
+    cursor: pointer;
+}
